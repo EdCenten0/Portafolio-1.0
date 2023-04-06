@@ -1,0 +1,126 @@
+:root {
+    --first_color: #e7eaf6;
+    --second_color: #a2a8d3;
+    --third_color: #38598b;
+    --fourth_color: #113f67;
+}
+
+img {
+    width: 100%;
+    
+}
+
+body{
+    background-color: var(--first_color);
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.main-header{
+    background-color: var(--second_color);
+    padding: 10px;
+}
+
+.main-header-navbar-ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.main-header-navbar-ul a {
+    color: var(--fourth_color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.main-header-navbar-ul a:hover{
+    color: var(--first_color);
+    
+
+}
+
+.presentation_section-container {
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 100px;
+    box-sizing: border-box;
+    background-color: var(--second_color);
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    
+    
+}
+
+.presentation_section-container_banner_img {
+    width: 100%;
+    
+
+}
+
+.presentation_section-container-profile_image{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.presentation_section-container-profile_image img{
+    border-radius: 30px;
+    border: 2px solid black ;
+}
+
+.presentation_section-container_img_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    right: 420px;
+    top: 220px;
+
+}
+
+.presentation_section-container_img_info p {
+    margin: 0;
+    font-weight: 300;
+    
+}
+
+.presentation_section-container_img_info h4 {
+    margin:10px 0 ;
+}
+
+.presentation_section-container-div_skills {
+    /* border: 1px solid red;  Just to mark box borders */
+    display: flex;
+    justify-content: space-around;
+    padding: 150px;
+    text-align: center;
+    font-weight: 500;
+    
+    
+}
+
+.presentacion_section-container-skills {
+    /* border: 1px solid blue; */
+    
+}
+
+.presentacion_section-container-skills img{
+    background-image: linear-gradient(to top, var(--fourth_color), var(--second_color));
+    border-radius: 30px;
+    border: 1px solid  var(--fourth_color);
+}
+
+
+.div_skill_img {
+    
+    border-radius: 30px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+}
+
+
