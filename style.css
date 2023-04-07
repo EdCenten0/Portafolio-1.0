@@ -5,10 +5,28 @@
     --fourth_color: #113f67;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 img {
     width: 100%;
     
 }
+
+a {
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+
 
 body{
     background-color: var(--first_color);
@@ -19,14 +37,14 @@ body{
 
 .main-header{
     background-color: var(--second_color);
-    padding: 10px;
+    padding: 1rem;
 }
 
 .main-header-navbar-ul {
     margin: 0;
     display: flex;
     justify-content: space-around;
-    gap: 100px;
+    gap: 10rem;
 }
 
 .main-header-navbar-ul a {
@@ -42,14 +60,14 @@ body{
 }
 
 .presentation_section-container {
-    border-radius: 20px;
+    border-radius: 2rem;
     margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
     box-sizing: border-box;
     background-color: var(--second_color);
-    width: 1000px;
-    height: 1000px;
+    width: 100rem;
+    height: 100rem;
     position: relative;
     
     
@@ -62,14 +80,14 @@ body{
 }
 
 .presentation_section-container-profile_image{
-    width: 150px;
-    height: 150px;
+    width: 15rem;
+    height: 15rem;
     
 }
 
 .presentation_section-container-profile_image img{
-    border-radius: 30px;
-    border: 2px solid black ;
+    border-radius: 3rem;
+    border: 0.2rem solid black ;
 }
 
 .presentation_section-container_img_info {
@@ -79,8 +97,8 @@ body{
     align-items: center;
     text-align: center;
     position: absolute;
-    right: 420px;
-    top: 220px;
+    right: 42rem;
+    top: 22rem;
 
 }
 
@@ -91,14 +109,14 @@ body{
 }
 
 .presentation_section-container_img_info h4 {
-    margin:10px 0 ;
+    margin:1rem 0 ;
 }
 
 .presentation_section-container-div_skills {
     
     display: flex;
     justify-content: space-around;
-    padding: 125px 125px 75px 125px;
+    padding: 12.5rem 12.5rem 7.5rem 12.5rem;
     text-align: center;
     font-weight: 500;
     
@@ -109,17 +127,17 @@ body{
 
 .presentacion_section-container-skills img{
     background-image: linear-gradient(to top, var(--fourth_color), var(--second_color));
-    border-radius: 30px;
-    border: 1px solid  var(--fourth_color);
+    border-radius: 3rem;
+    border: 0.1rem solid  var(--fourth_color);
 }
 
 
 .div_skill_img {
     
-    border-radius: 30px;
+    border-radius: 3rem;
     box-sizing: border-box;
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
 }
 
 .presentation_section-container-location_email{
@@ -131,8 +149,8 @@ body{
 
 .presentation_section-container-location_email div {
     display: flex;
-    width: 150px;
-    height: 150px;
+    width: 15rem;
+    height: 15rem;
     flex-direction: column;
     align-items: center;
     
@@ -156,19 +174,19 @@ body{
 }
 
 .presentation_section-container-contanct_projects button {
-    border: 1px solid var(--fourth_color);
+    border: 0.1rem solid var(--fourth_color);
     width:100% ;
-    padding: 15px;
+    padding: 1.5rem;
     font-weight: 700;
     background-color: var(--third_color);
 }
 
 .presentation_section-container-contanct_projects button:first-child{
-    border-radius: 0% 0% 0% 10px;
+    border-radius: 0% 0% 0% 1rem;
 }
 
 .presentation_section-container-contanct_projects button{
-    border-radius: 0% 0% 10px 0%;
+    border-radius: 0% 0% 1rem 0%;
 }
 
 .presentation_section-container-contanct_projects button:hover{
