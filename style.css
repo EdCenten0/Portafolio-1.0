@@ -51,6 +51,7 @@ body{
     position: relative;
     
     
+    
 }
 
 .presentation_section-container_banner_img {
@@ -96,17 +97,14 @@ body{
     /* border: 1px solid red;  Just to mark box borders */
     display: flex;
     justify-content: space-around;
-    padding: 150px;
+    padding: 125px 125px 75px 125px;
     text-align: center;
     font-weight: 500;
     
     
 }
 
-.presentacion_section-container-skills {
-    /* border: 1px solid blue; */
-    
-}
+
 
 .presentacion_section-container-skills img{
     background-image: linear-gradient(to top, var(--fourth_color), var(--second_color));
@@ -123,4 +121,25 @@ body{
     height: 100px;
 }
 
+.presentation_section-container-location_email{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
 
+.presentation_section-container-location_email div {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentation_section-container-location_email svg{
+    width: 100%;
+}
+
+.presentation_section-container-location_email div p{
+    font-weight: 300;
+}
